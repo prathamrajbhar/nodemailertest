@@ -1,0 +1,25 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "It is use for production of email services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "netlify-cli": "^17.33.3",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.14",
+    "pug": "^3.0.3",
+    "serverless-http": "^3.2.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
